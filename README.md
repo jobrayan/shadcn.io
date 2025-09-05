@@ -113,7 +113,9 @@ The repository currently bundles implementations for `Message`, `PromptInput`, `
 ## Additional components
 
 - Advanced AI chat helpers: `Reasoning`, `ConversationItem`, `InlineCitation`, `AssistantActions`, `MessageToolbar`, `MessageSelectionBar`.
-\- More AI utilities: `TypingIndicator`, `SystemNotice`, `ConversationTile`, `HistoryList`, `AttachmentPill`, `AttachmentPreview`.
-- Chart wrappers (`Recharts`): `LineChart`, `AreaChart`, `BarChart`, `ComposedChart`, `PieChart`, `ScatterChart`, `RadarChart`, `RadialProgressChart`, `SparklineChart` (with shared primitives in `src/components/charts`).
-\
-\
+- More AI utilities: `TypingIndicator`, `SystemNotice`, `ConversationTile`, `HistoryList`, `AttachmentPill`, `AttachmentPreview`.
+ - Chart wrappers (`Recharts`): `LineChart`, `AreaChart`, `BarChart`, `ComposedChart`, `PieChart`, `ScatterChart`, `RadarChart`, `RadialProgress`, `GaugeChart`, `SparklineLine`, `SparklineArea` (with shared primitives in `src/components/charts`).
+ - Data utilities: `TaskList`, `VirtualizedList`, `FilterBar`.
+
+
+
