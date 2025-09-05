@@ -113,9 +113,7 @@ The repository currently bundles implementations for `Message`, `PromptInput`, `
 ## Additional components
 
 - Advanced AI chat helpers: `Reasoning`, `ConversationItem`, `InlineCitation`, `AssistantActions`, `MessageToolbar`, `MessageSelectionBar`.
-- More AI utilities: `TypingIndicator`, `SystemNotice`, `ConversationTile`, `HistoryList`, `AttachmentPill`, `AttachmentPreview`.
- - Chart wrappers (`Recharts`): `LineChart`, `AreaChart`, `BarChart`, `ComposedChart`, `PieChart`, `ScatterChart`, `RadarChart`, `RadialProgress`, `GaugeChart`, `SparklineLine`, `SparklineArea` (with shared primitives in `src/components/charts`).
- - Data utilities: `TaskList`, `VirtualizedList`, `FilterBar`.
-
-
-
+- More AI utilities: `TypingIndicator`, `SystemNotice`, `ConversationTile`, `HistoryList`, `AttachmentPill`, `AttachmentPreview`, `ConversationSidebar`, `SystemMessage`, `CodeBlock`, `MessageImageGallery`, `MicRecorderButton`, `AudioPlayerBar`, `ResultTableCard`, `KeyValueCard`, `JsonCard`, `HistoryActionsMenu`.
+- Layout: `AppShell`, `AppSidebar`, `AppHeader` (responsive sidebar + header template).
+- Chart wrappers (`Recharts`): `LineChart`, `AreaChart`, `BarChart`, `ComposedChart`, `PieChart`, `ScatterChart`, `RadarChart`, `RadialProgress`, `GaugeChart`, `SparklineLine`, `SparklineArea` (with shared primitives in `src/components/charts`).
+- Data utilities: `TaskList`, `VirtualizedList`, `FilterBar`.
