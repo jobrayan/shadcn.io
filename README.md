@@ -2,7 +2,20 @@
 
 Production-ready React components following shadcn/ui principles. TypeScript-first, Tailwind-styled, Radix-powered. Beautiful defaults with complete customization freedom. The frontend UI toolkit for vibecoders who ship fast and own their code.
 
+## Getting Started
+
+This repository does not bundle the upstream component code. To install specific components locally, use the official CLI:
+
+```bash
+npx shadcn@latest add <component>
+```
+
+Refer to the [shadcn documentation](https://ui.shadcn.com/docs/cli) for the list of available components and usage details.
+
+
 ## React AI Components
+
+The repository currently bundles implementations for `Message`, `PromptInput`, `Response`, `Conversation`, `Sources`, and `Tool` under `src/components/ai`.
 
 | Name                                                               | Description                                                                                                                                  |
 | ------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -96,3 +109,9 @@ Production-ready React components following shadcn/ui principles. TypeScript-fir
 | **[Splitting Text](https://www.shadcn.io/text/splitting-text)**               | React text splitting with staggered character, word, or line reveals. Smooth animations that flow naturally using Framer Motion, TypeScript, and shadcn/ui. |
 | **[Typing Text](https://www.shadcn.io/text/typing-text)**                     | React typewriter effect with realistic typing speeds and cursor behavior. Human-like character animations built with Motion, TypeScript, and shadcn/ui. |
 | **[Writing Text](https://www.shadcn.io/text/writing-text)**                   | React writing text with word-by-word reveals and natural timing. Progressive text animation built with Motion, TypeScript, and shadcn/ui for Next.js apps. |
+
+## Additional components
+
+- Advanced AI chat helpers: `Reasoning`, `ConversationItem`, `InlineCitation`, `AssistantActions`, `MessageToolbar`, `MessageSelectionBar`.
+- Chart wrappers (`Recharts`): `LineChart`, `AreaChart`, `BarChart`, `ComposedChart`, `PieChart` (with shared primitives in `src/components/charts`).
+
