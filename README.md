@@ -2,7 +2,20 @@
 
 Production-ready React components following shadcn/ui principles. TypeScript-first, Tailwind-styled, Radix-powered. Beautiful defaults with complete customization freedom. The frontend UI toolkit for vibecoders who ship fast and own their code.
 
+## Getting Started
+
+This repository does not bundle the upstream component code. To install specific components locally, use the official CLI:
+
+```bash
+npx shadcn@latest add <component>
+```
+
+Refer to the [shadcn documentation](https://ui.shadcn.com/docs/cli) for the list of available components and usage details.
+
+
 ## React AI Components
+
+The repository currently bundles implementations for `Message`, `PromptInput`, `Response`, `Conversation`, `Sources`, and `Tool` under `src/components/ai`.
 
 | Name                                                               | Description                                                                                                                                  |
 | ------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------- |
