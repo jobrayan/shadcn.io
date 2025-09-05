@@ -23,6 +23,7 @@
     "hast-util-to-html": "^9.0.5",
     "unist-util-visit": "^5.0.0",
     "clsx": "^2.1.1",
-    "tailwind-merge": "^3.3.1"
+    "tailwind-merge": "^3.3.1",
+    "recharts": "^2.7.2"
   }
 }
