@@ -117,3 +117,5 @@ The repository currently bundles implementations for `Message`, `PromptInput`, `
  - Chart wrappers (`Recharts`): `LineChart`, `AreaChart`, `BarChart`, `ComposedChart`, `PieChart`, `ScatterChart`, `RadarChart`, `RadialProgress`, `GaugeChart`, `SparklineLine`, `SparklineArea` (with shared primitives in `src/components/charts`).
  - Data utilities: `TaskList`, `VirtualizedList`, `FilterBar`.
 
+
+
